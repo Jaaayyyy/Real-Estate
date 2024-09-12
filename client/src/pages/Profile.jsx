@@ -138,7 +138,7 @@ export default function Profile() {
           alt='profile'
           className='rounded-full h-24 w-24 object-cover cursor-pointer self-center mt-2'
         />
-        <p className='text-sm self-center'>
+         <p className='text-sm self-center'>
           {fileUploadError ? (
             <span className='text-red-700'>
               Error Image upload (image must be less than 2 mb)
